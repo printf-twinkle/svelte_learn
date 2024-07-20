@@ -1,0 +1,10 @@
+
+contract Multiple {
+  int product;
+  constructor(int pr) {
+    this.product = pr;
+  }
+  public function unlock(int mul1, int mul2) {
+    require(mul1 * mul2 == this.product);
+  }
+}

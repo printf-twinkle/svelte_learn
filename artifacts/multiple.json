@@ -1,0 +1,40 @@
+{
+    "version": 9,
+    "compilerVersion": "1.19.2+commit.c3a20a0",
+    "contract": "Multiple",
+    "md5": "b907c52938668df1e26b8a0ea1a44283",
+    "structs": [],
+    "library": [],
+    "alias": [],
+    "abi": [
+        {
+            "type": "function",
+            "name": "unlock",
+            "index": 0,
+            "params": [
+                {
+                    "name": "mul1",
+                    "type": "int"
+                },
+                {
+                    "name": "mul2",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "pr",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///C:/Users/mrdiv/Desktop/TCLabs/New%20folder/smart-contract-demo/artifacts/multiple.scrypt",
+    "hex": "00<pr>610079527a75517a7561527952799551799c777777",
+    "sourceMapFile": ""
+}
