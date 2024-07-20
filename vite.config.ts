@@ -1,13 +1,6 @@
-import { defineConfig } from 'vite';
 import { sveltekit } from '@sveltejs/kit/vite';
-import dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config();
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  plugins: [sveltekit()],
-  define: {
-    'process.env.POSTGRES_URL': JSON.stringify(process.env.POSTGRES_URL)
-  }
+	plugins: [sveltekit()]
 });
